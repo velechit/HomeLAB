@@ -1,0 +1,214 @@
+(footprint "Converter_DCDC_XP_POWER-IAxxxxD_THT"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(locked yes)
+	(layer "F.Cu")
+	(descr "DCDC-Converter, XP Power, IA series, 3.3-24V inputs, 1000V isolation, SIP-7, https://www.xppower.com/portals/0/pdfs/SF_IA.pdf, generated with kicad-footprint-generator StandardBox_generator.py")
+	(tags "THT")
+	(property "Reference" "REF**"
+		(at 3.56 -4.29 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "fd72a8c6-7639-4feb-ae7a-e74b77dab241")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.075)
+			)
+		)
+	)
+	(property "Value" "IA0515D"
+		(at 3.56 18.93 0)
+		(layer "F.Fab")
+		(uuid "484bbe01-77eb-4908-acc4-ba799a19883f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.xppower.com/pdfs/SF_IA.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "508389a0-a41a-4070-9a0f-543c88eca785")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "XP Power 1W, 1000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±15V, ±33mA, 5V Input Voltage, DIP"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f79cd2b9-f1af-477a-bfe2-887ead242344")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start 9.25 18.09)
+		(end -2.13 18.09)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ccaf1532-a694-4396-b4fa-3d99bdc4e7fc")
+	)
+	(fp_line
+		(start 9.25 -3.45)
+		(end 9.25 18.09)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d9efe149-2d72-4865-90f3-3c3da30d7647")
+	)
+	(fp_line
+		(start -2.13 18.09)
+		(end -2.13 0.296)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5375646a-c8f6-4c20-bbd4-f437e1c930ef")
+	)
+	(fp_line
+		(start -2.13 -0.296)
+		(end -2.13 -3.45)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0f4783d0-ff8b-461a-a17d-d94a85af3b71")
+	)
+	(fp_line
+		(start -2.13 -3.45)
+		(end 9.25 -3.45)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a36839ef-55c7-4e13-85d5-d65a5aaf5b1d")
+	)
+	(fp_poly
+		(pts
+			(xy -2.13 0) (xy -2.74 0.44) (xy -2.74 -0.44)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "f3447ffa-5584-4503-8b63-13c949450158")
+	)
+	(fp_rect
+		(start -2.27 -3.59)
+		(end 9.39 18.23)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "aaff7ae7-695c-48fb-95f8-1b46d2d206f2")
+	)
+	(fp_poly
+		(pts
+			(xy -1.52 -1.84) (xy -1.52 17.48) (xy 8.64 17.48) (xy 8.64 -2.84) (xy -0.52 -2.84)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "f6d35524-fbec-4ca0-80ba-f32451942a46")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 3.56 7.32 0)
+		(layer "F.Fab")
+		(uuid "4d4fe05c-11f7-4c76-89eb-39d309fd5c18")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at 0 0 180)
+		(size 1.85 1.85)
+		(drill 0.85)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.135135)
+		(uuid "cd948f76-1f6c-4a1a-bdb8-bfc5e578377e")
+	)
+	(pad "2" thru_hole circle
+		(at 0 15.24 180)
+		(size 1.85 1.85)
+		(drill 0.85)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c5995740-7503-4e89-a0e6-16db062f8f20")
+	)
+	(pad "3" thru_hole circle
+		(at 7.62 0 180)
+		(size 1.85 1.85)
+		(drill 0.85)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9928894a-8ee2-4203-a010-cc316aec88c0")
+	)
+	(pad "4" thru_hole circle
+		(at 7.62 7.62 180)
+		(size 1.85 1.85)
+		(drill 0.85)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ab1caafd-17ba-481c-a36a-7af3baf45d7f")
+	)
+	(pad "5" thru_hole circle
+		(at 7.62 12.7 180)
+		(size 1.85 1.85)
+		(drill 0.85)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d38fb904-adf1-4fb9-ab04-741834f3cbca")
+	)
+	(pad "6" thru_hole circle
+		(at 7.62 15.24 180)
+		(size 1.85 1.85)
+		(drill 0.85)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "75e7c837-3e4d-4258-a611-4b2848a5105d")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/libs/FuncGen-Footprints.3dmodels/Converter_DCDC_XP_POWER-IAxxxxD_THT.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
